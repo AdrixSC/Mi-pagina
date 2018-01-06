@@ -1,0 +1,24 @@
+.row::before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row::after {
+  clear: both;
+}/*cuando cierra un row o fila, se limpia con clear*/
+
+.column-4 {
+  width: calc(33.33% - 20px);
+}
+
+.column-3 {
+  width: calc(25% - 20px);
+}
+
+
+[class*="column-"] {
+  min-height: 100px;
+  float: left;
+  margin: 10px; /*gutter*/
+}
