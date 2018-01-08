@@ -4,59 +4,99 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere|Racing+Sans+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <title>Mi Pagina</title>
 </head>
 
 <body>
-  <section class="container">
-    <header>
-      <section class="row menu">
-        <div class="column-3"></div>
-        <div class="column-3">
-        LOGO
-        </div>
-        <div class="column-3">
-          <a href="#">HOME</a>
-          <a href="#">HOME</a>
-          <a href="#">HOME</a>
-          <a href="#">HOME</a>
-        </div>
-        <div class="column-3"></div>
-      </section>
+    <section class="container">
+        <header>
+            <section class="row menu mobile ">
+                <div class="column-1"></div>
+                <div class="column-7">
+                    KILOMETROS EN TU CALENDARIO
+                </div>
+                <div class="column-3 hidden">
+                    <a href="#">HOME</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">SERVICES</a>
+                    <a href="#">CONTACT</a>
+                </div>
+                <!--<div class="hidden">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>-->
+                <div class="column-1"></div>
+            </section>
 
-      <section class="row image">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-      </section>
-    </header>
+            <section class="row image">
+                <div class="column-1"></div>
+                <div class="column-10">
+                    <img src="assets/images/header-img.png" alt="corredores">
+                </div>
+                <div class="column-1"></div>
+            </section>
+        </header>
 
-    <main>
-      <section class="row information">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-      </section>
+        <main>
+            <section class="row information">
+                <div class="column-1"></div>
+                <div class="column-6 mobile">
+                    <h1>Buscando los kilometros que quieres correr</h1>
+                    <p>Todas las carreras en un solo calendario, aquí podrás consultar las mejores carreras en México y en el mundo. Encuentra carreras de 5K, 10K, 15K, splits, 21k Medio Maratón , 42k Maratón, carreras de obstáculos, infantiles y caminatas.</p>
+                </div>
+                <div class="column-4 mobile ">
+                    <h1>Tipo de carrera</h1>
+                    <p>Elige los kilómetros que quieres correr:</p>
+                    <select name="carlist" form="carform">
+                      <option value="5">5KM</option>
+                      <option value="1O">10KM</option>
+                      <option value="15">15KM</option>
+                      <option value="21">21KM</option>
+                      <option value="42">42KM</option>
+                      <option value="infantil">INFANTILES</option>
+                      <option value="caminata">CAMINATA</option>
+                    </select>
+                </div>
+                <div class="column-1"></div>
+            </section>
 
-      <section class="row blocks">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-      </section>
-    </main>
+            <section class="row blocks">
+                <div class="column-1"></div>
+                <div class="column-3 mobile ">
+                    <img src="assets/images/carrera-1.jpg" alt="">
+                    <h1>Fecha & Lugar</h1>
+                    <p>Jan 14, 2018 at 7:00am CST Sinaloa, Sinaloa, Mexico
+                    </p>
+                    <p>Inscripciones en: www.chevronhoustonmarathon.com</p>
+                </div>
+                <div class="column-3 mobile ">
+                    <img src="assets/images/carrera-2.jpg" alt="">
+                    <h1>Fecha & Lugar</h1>
+                    <p>Jan 14, 2018 at 7:00am CST Houston, Houston, TX, USA</p>
+                    <p>Inscripciones en: www.chevronhoustonmarathon.com</p>
+                </div>
+                <div class="column-3 mobile ">
+                    <img src="assets/images/carrera-3.jpg" alt="">
+                    <h1>Fecha & Lugar</h1>
+                    <p>Jan 14, 2018 at 7:00am CST Pachuca, Pachuca, Hgo., Mexico</p>
+                    <p>Inscripciones en: www.chevronhoustonmarathon.com</p>
+                </div>
+                <div class="column-1"></div>
+            </section>
+        </main>
 
-    <footer>
-      <section class="row">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-      </section>
-    </footer>
+        <footer>
+            <section class="row footer mobile ">
+                <div class="column-12">
+                    <p>COPYRIGHT YOUR WEBSITE 2018</p>
+                </div>
+            </section>
+        </footer>
 
-  </section>
+    </section>
 
 </body>
+
 </html>

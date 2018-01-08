@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .mobile {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .menu {
+        height: 80px;
+    }
+    .menu>.column-7 {
+        font-family: 'Racing Sans One', cursive;
+        font-size: 20px;
+    }
+    .hidden {
+        display: none;
+    }
+    .show {
+        display: block;
+    }
+}

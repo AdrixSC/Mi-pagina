@@ -1,24 +1,142 @@
+.blocks {
+    font-family: 'Pompiere', cursive;
+}
+
+.blocks>.column-3>h1 {
+    color: purple;
+    font-size: 25px;
+}
+
+.blocks>.column-3>p {
+    font-size: 17px;
+    line-height: 10px;
+}
+
+.blocks>.column-3>img {
+    height: 200px;
+    width: 100%;
+}
+
+.image>.column-10>img {
+    width: 100%;
+}
+
+.menu {
+    background-color: purple;
+    color: white;
+    height: 50px;
+}
+
+.menu>.column-7 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 25px;
+}
+
+.menu>.column-3>a {
+    color: white;
+    font-family: 'Pompiere', cursive;
+}
+
+.information {
+    font-family: 'Pompiere', cursive;
+}
+
+.information>.column-6>p {
+    font-size: 20px;
+}
+
+.information>.column-6>h1 {
+    color: purple;
+    font-size: 30px;
+}
+
+.information>.column-4>h1 {
+    color: purple;
+    font-size: 30px;
+}
+
+.information>.column-4>p {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: purple;
+    color: white;
+    font-family: 'Pompiere', cursive;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer>.column-12>p {
+    margin: 0 auto;
+}
+
 .row::before,
 .row:after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 
 .row::after {
-  clear: both;
-}/*cuando cierra un row o fila, se limpia con clear*/
+    clear: both;
+}
 
-.column-4 {
-  width: calc(33.33% - 20px);
+.margin-extra {
+    margin-left: 15px;
+}
+
+.column-1 {
+    width: calc(8.33% - 20px);
+}
+
+.column-2 {
+    width: calc(16.66% - 20px);
 }
 
 .column-3 {
-  width: calc(25% - 20px);
+    width: calc(25% - 20px);
 }
 
+.column-4 {
+    width: calc(33.33% - 20px);
+}
+
+.column-5 {
+    width: calc(41.66% - 20px);
+}
+
+.column-6 {
+    width: calc(50% - 20px);
+}
+
+.column-7 {
+    width: calc(58.33% - 20px);
+}
+
+.column-8 {
+    width: calc(66.66% - 20px);
+}
+
+.column-9 {
+    width: calc(75% - 20px);
+}
+
+.column-10 {
+    width: calc(83.33% - 20px);
+}
+
+.column-11 {
+    width: calc(91.66% - 20px);
+}
+
+.column-12 {
+    width: calc(100% - 20px);
+}
 
 [class*="column-"] {
-  min-height: 100px;
-  float: left;
-  margin: 10px; /*gutter*/
+    float: left;
+    min-height: 100px;
+    margin: 10px;
+    /*gutter*/
 }
